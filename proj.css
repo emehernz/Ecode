@@ -1,0 +1,79 @@
+.banner {
+  width: 100%;
+  display=block;
+}
+
+.banner > .banner-image {
+  width: 80%;
+  height: auto;
+  display= block;
+}
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.services1 {
+  width: 298px;
+  border: 1px solid #clclcl;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float left;
+  display: inline-block;
+}
+
+.services1 > p {
+  font-size: 14px
+  color: #636363;
+  max-width: 250px
+}
+
+.services {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.img {
+  max-width: 200px;
+  margin: 15px 0 0 0;
+
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+  color: #clclcl;
+  margin: 100px 0 50px 0;
+}
