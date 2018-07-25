@@ -1,0 +1,83 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 0px; /* Add a top margin to avoid content overlay */
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-right: 55%;
+    margin-left: 0px;
+    background-color: lightblue;
+}
+
+.inspiration {
+    margin-bottom: 10px;
+    margin-right: 55%;
+    margin-left: 0px;
+    background-color: lightblue;
+}
+
+.aboutus {
+    margin-bottom: 10px;
+    margin-right: 55%;
+    margin-left: 0px;
+    background-color: lightblue;
+}
+
+.Ina {
+  display: inline-block;
+  width: 20%
+  text-align: center;
+
+}
+
+.Bridget {
+display: inline-block;
+width: 25%
+}
+
+.Emerald {
+display: inline-block;
+width: 25%
+
+}
+
+.Beatriz {
+display: inline-block;
+width: 25%
+
+}
+
+.pictures {
+  display: inline-block;
+  text-align: right;
+}
